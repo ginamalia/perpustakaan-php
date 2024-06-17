@@ -16,19 +16,22 @@
 </head>
 <body>
     <div class="container">
-
-        <h1 class="my-4">Aplikasi Perpustakaan</h1>
-
-        <a class="btn btn-primary" href="./buku.php">Lihat Daftar Buku</a>
-
-        <a class="btn btn-success" href="./staff.php">Lihat Daftar Staff</a>
-        <br><br>
+        <center>
+            <h1 class="my-4">Aplikasi Perpustakaan</h1>
+        </center>
         
-        <form class="mt-3" action="logout_proccess.php" method="POST">
-            <button class="btn btn-danger" type="submit">LOGOUT</button>
-        </form>
 
-    </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <a class="btn btn-primary" href="./buku.php" type="button">Lihat Daftar Buku</a>
+            <a class="btn btn-primary" href="./staff.php" type="button">Lihat Daftar Staff</a>
+
+            <form class="mt-10" action="logout_proccess.php" method="POST">
+                <button class="btn btn-danger d-grid gap-2 col-6 mx-auto" type="submit">LOGOUT</button>
+            </form>
+         </div>
+
+    </div>
+
     
 </body>
 </html>

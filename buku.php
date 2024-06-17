@@ -42,9 +42,8 @@
         </table>
         
         <br>
-        <a href="./tambah-buku.php">Tambah data buku</a>
-        <br>
-        <a href="./index.php">Kembali ke halaman utama</a>
+        <a class="btn btn-secondary" href="./tambah-buku.php" type="button">Tambah data buku</a>
+        <a class="btn btn-secondary" href="./index.php" type="button">Kembali ke halaman utama</a>
     </div>
     
 </body>
